@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://${DATABASE_URL}/todo_app_ver3
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
+
